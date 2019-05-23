@@ -455,6 +455,8 @@
     <Attribute name="colorItemSelBkgnd" default="#0000ff" type="COLOR" comment="选中背景色"/>
     <Attribute name="colorText" default="#0000ff" type="COLOR" comment="文字颜色"/>
     <Attribute name="colorSelText" default="rgb(255,0,0)" type="COLOR" comment="选中文字时的颜色"/>
+	<Attribute name="hasLines" default="0" type="INT" comment="是否有虚线 0--没有 1--有(默认) "/>
+	
   </treectrl>
 
   <!-- 范例  树形控件  子项在xml里面写 treeview的列表项可以由XML定义。treectrl不行
